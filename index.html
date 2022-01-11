@@ -16,19 +16,20 @@
 </header>
 
 <body>
-    <div class='forecast'></div>
     <aside class='search-form'>
         <h3>Search for a City:</h3>
-        <input type="text" placeholder='San Diego' id='search-input' class='search' />
+        <input type="text" placeholder='San Diego' id='search-input' class='search w-25' />
         <br>
-        <button id='search-button' class='search'>Search</button>
+        <button id='search-button' class='mt-1 w-25 search'>Search</button>
         <hr>
         <div id='history'>
+            <ul id='search-list'></ul>
         </div>
     </aside>
-    <section id='current'>
-
-    </section>
+    <div>
+        <section id='current'></section>
+        <section id='forecast'></section>
+    </div>
     <script src="./assets/script.js"></script>
 </body>
 
