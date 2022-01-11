@@ -1,6 +1,18 @@
-console.log('working');
+var apiKey = '08eb2650895baca3c30a3a64ceb6c09b';
+var city;
+var state;
+var country;
+var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
 
-1) I want to make sure I retrieve data from the API call.
+fetch(queryURL)
+
+api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}
+
+api.openweathermap.org/data/2.5/weather?q={city},{state}&appid={apiKey}
+
+api.openweathermap.org/data/2.5/weather?q={city},{state},{country}&appid={apiKey}
+
+1) I want to make sure I retrieve data from the API call. 
     => I can get the fetch call to work properly
         => Let's console.log stuff
         => link a script tag to an html

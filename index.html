@@ -10,9 +10,25 @@
     <link rel="stylesheet" href="./assets/styles.css">
     <title>Document</title>
 </head>
+<header>
+    <h2 class='head text-center bg-dark text-light'>Weather Dashboard
+    </h2>
+</header>
 
 <body>
+    <div class='forecast'></div>
+    <aside class='search-form'>
+        <h3>Search for a City:</h3>
+        <input type="text" placeholder='San Diego' id='search-input' class='search' />
+        <br>
+        <button id='search-button' class='search'>Search</button>
+        <hr>
+        <div id='history'>
+        </div>
+    </aside>
+    <section id='current'>
 
+    </section>
     <script src="./assets/script.js"></script>
 </body>
 

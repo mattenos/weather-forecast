@@ -1,0 +1,10 @@
+html {
+    line-height: 1.25;
+    -webkit-text-size-adjust: 100%;
+}
+
+hr {
+box-sizing: content-box;
+height: 0;
+overflow: visible;
+}
